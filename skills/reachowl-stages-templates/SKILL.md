@@ -1,9 +1,6 @@
 ---
 name: reachowl-stages-templates
-description: >-
-  Manage the ReachOwl sales pipeline (CRM stages) and reusable message templates
-  for follow-ups. Use when the user wants to add, rename, reorder, or delete pipeline
-  stages, or write, save, or update follow-up message templates tied to a stage.
+description: "Manage the ReachOwl sales pipeline (CRM stages) and reusable message templates for follow-ups. Use when the user wants to add, rename, reorder, or delete pipeline stages, or write, save, or update follow-up message templates tied to a stage."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:

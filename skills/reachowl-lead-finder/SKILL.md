@@ -1,11 +1,6 @@
 ---
 name: reachowl-lead-finder
-description: >-
-  Find and qualify B2B leads (names, titles, emails, phones, social profiles) from
-  public websites and directories with the ReachOwl Lead Finder Apify Actor, then
-  import them into an existing ReachOwl campaign for Facebook, Instagram, or WhatsApp
-  outreach. Use when the user wants to scrape leads from URLs, build a prospect list
-  for a niche and location, or fill a ReachOwl campaign with new leads.
+description: "Find and qualify B2B leads (names, titles, emails, phones, social profiles) from public websites and directories with the ReachOwl Lead Finder Apify Actor, then import them into an existing ReachOwl campaign for Facebook, Instagram, or WhatsApp outreach. Use when the user wants to scrape leads from URLs, build a prospect list for a niche and location, or fill a ReachOwl campaign with new leads."
 license: MIT
 compatibility: Requires an Apify account (APIFY_TOKEN or the Apify MCP server) and the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:

@@ -1,10 +1,6 @@
 ---
 name: reachowl-team-accounts
-description: >-
-  See which Facebook, Instagram, and WhatsApp accounts and browsers are connected to
-  ReachOwl, pick the account to run campaigns from, and manage team members (invite,
-  change role, remove). Use when the user asks which accounts they can use, why
-  an account isn't available, or wants to add a teammate to ReachOwl.
+description: "See which Facebook, Instagram, and WhatsApp accounts and browsers are connected to ReachOwl, pick the account to run campaigns from, and manage team members (invite, change role, remove). Use when the user asks which accounts they can use, why an account isn't available, or wants to add a teammate to ReachOwl."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:

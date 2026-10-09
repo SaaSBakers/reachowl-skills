@@ -1,10 +1,6 @@
 ---
 name: reachowl-webhooks
-description: >-
-  Send ReachOwl events to other apps with webhooks: new keyword-monitor posts, sent
-  messages, replies, accepted friend requests, and failures. Use when the user wants
-  notifications in Slack, a CRM, Zapier, Make, n8n, or their own server when something
-  happens in ReachOwl, or wants to list, change, or remove webhooks.
+description: "Send ReachOwl events to other apps with webhooks: new keyword-monitor posts, sent messages, replies, accepted friend requests, and failures. Use when the user wants notifications in Slack, a CRM, Zapier, Make, n8n, or their own server when something happens in ReachOwl, or wants to list, change, or remove webhooks."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:

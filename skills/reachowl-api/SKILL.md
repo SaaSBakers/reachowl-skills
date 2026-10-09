@@ -1,9 +1,6 @@
 ---
 name: reachowl-api
-description: >-
-  Make a raw authenticated call to the ReachOwl V1 REST API through the ReachOwl MCP
-  server when no named ReachOwl tool covers the request, such as a query parameter or
-  field the named tools don't expose. Use only after checking the other ReachOwl skills.
+description: "Make a raw authenticated call to the ReachOwl V1 REST API through the ReachOwl MCP server when no named ReachOwl tool covers the request, such as a query parameter or field the named tools don't expose. Use only after checking the other ReachOwl skills."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:

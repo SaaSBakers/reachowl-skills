@@ -1,12 +1,6 @@
 ---
 name: reachowl
-description: >-
-  ReachOwl social media marketing automation for Facebook, Instagram, and WhatsApp:
-  social listening, signal-based prospecting, cold DM campaigns, WhatsApp marketing,
-  Facebook group posting, comment-to-DM automations, Instagram growth, lead finding,
-  and CRM follow-ups through the ReachOwl MCP server. Use when the user mentions
-  ReachOwl or wants to automate Facebook, Instagram, or WhatsApp marketing and
-  doesn't name a specific ReachOwl feature.
+description: "ReachOwl social media marketing automation for Facebook, Instagram, and WhatsApp: social listening, signal-based prospecting, cold DM campaigns, WhatsApp marketing, Facebook group posting, comment-to-DM automations, Instagram growth, lead finding, and CRM follow-ups through the ReachOwl MCP server. Use when the user mentions ReachOwl or wants to automate Facebook, Instagram, or WhatsApp marketing and doesn't name a specific ReachOwl feature."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a ReachOwl account.
 metadata:

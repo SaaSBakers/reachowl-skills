@@ -1,10 +1,6 @@
 ---
 name: reachowl-profile-growth
-description: >-
-  Grow an Instagram profile with ReachOwl profile growth plans that auto-like and
-  repost niche posts found by hashtag, keyword search, or Explore, on a daily limit
-  and weekly schedule. Use when the user wants Instagram growth, engagement
-  automation, or to create, pause, resume, or edit an Instagram growth plan.
+description: "Grow an Instagram profile with ReachOwl profile growth plans that auto-like and repost niche posts found by hashtag, keyword search, or Explore, on a daily limit and weekly schedule. Use when the user wants Instagram growth, engagement automation, or to create, pause, resume, or edit an Instagram growth plan."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a connected Instagram account in ReachOwl.
 metadata:

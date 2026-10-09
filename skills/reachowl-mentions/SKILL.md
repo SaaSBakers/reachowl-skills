@@ -1,10 +1,6 @@
 ---
 name: reachowl-mentions
-description: >-
-  Social listening with ReachOwl keyword monitors: track keywords across Facebook
-  groups, Instagram, Reddit (subreddits), and Quora, and review the posts found. Use
-  when the user wants brand monitoring, keyword alerts, to find people asking for a
-  product or service, to discover relevant discussions, or to see posts a monitor found.
+description: "Social listening with ReachOwl keyword monitors: track keywords across Facebook groups, Instagram, Reddit (subreddits), and Quora, and review the posts found. Use when the user wants brand monitoring, keyword alerts, to find people asking for a product or service, to discover relevant discussions, or to see posts a monitor found."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp). Facebook group and Instagram monitors need a connected account in ReachOwl.
 metadata:

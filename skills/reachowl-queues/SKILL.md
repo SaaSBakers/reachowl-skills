@@ -1,9 +1,6 @@
 ---
 name: reachowl-queues
-description: >-
-  Look up and retry ReachOwl message queue items for a specific lead in a campaign.
-  Use when a DM, friend request, or follow-up failed or is stuck, when the user asks
-  whether a message was sent to someone, or wants to resend or reschedule a step.
+description: "Look up and retry ReachOwl message queue items for a specific lead in a campaign. Use when a DM, friend request, or follow-up failed or is stuck, when the user asks whether a message was sent to someone, or wants to resend or reschedule a step."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:

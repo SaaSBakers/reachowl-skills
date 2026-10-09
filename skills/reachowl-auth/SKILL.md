@@ -1,10 +1,6 @@
 ---
 name: reachowl-auth
-description: >-
-  Connect and verify a ReachOwl account in the ReachOwl MCP server using the user's
-  ReachOwl API token. Use when setting up ReachOwl, when any ReachOwl tool reports a
-  missing or invalid token, when the user pastes a ReachOwl token, wants to log in with
-  email and password, switch accounts, or log out.
+description: "Connect and verify a ReachOwl account in the ReachOwl MCP server using the user's ReachOwl API token. Use when setting up ReachOwl, when any ReachOwl tool reports a missing or invalid token, when the user pastes a ReachOwl token, wants to log in with email and password, switch accounts, or log out."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:

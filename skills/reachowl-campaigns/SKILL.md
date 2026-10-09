@@ -1,11 +1,6 @@
 ---
 name: reachowl-campaigns
-description: >-
-  Create, list, start, pause, update, and delete ReachOwl outreach campaigns for
-  Facebook, Instagram, and WhatsApp (cold DMs, friend requests, follow-ups, auto
-  comment replies), and upload leads into an existing campaign. Use for Facebook
-  group or post commenter outreach, Instagram follower or hashtag outreach, WhatsApp
-  bulk messaging, or importing a contact list into a ReachOwl campaign.
+description: "Create, list, start, pause, update, and delete ReachOwl outreach campaigns for Facebook, Instagram, and WhatsApp (cold DMs, friend requests, follow-ups, auto comment replies), and upload leads into an existing campaign. Use for Facebook group or post commenter outreach, Instagram follower or hashtag outreach, WhatsApp bulk messaging, or importing a contact list into a ReachOwl campaign."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a connected Facebook, Instagram, or WhatsApp account in ReachOwl.
 metadata:

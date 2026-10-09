@@ -1,10 +1,6 @@
 ---
 name: reachowl-content-distribution
-description: >-
-  Repurpose an article, blog post, product launch, or announcement into posts tailored
-  to different Facebook groups and communities, then schedule them with ReachOwl's
-  post scheduler and auto-reply to interested commenters. Use for content distribution,
-  community marketing, launch announcements, or sharing a blog post across Facebook groups.
+description: "Repurpose an article, blog post, product launch, or announcement into posts tailored to different Facebook groups and communities, then schedule them with ReachOwl's post scheduler and auto-reply to interested commenters. Use for content distribution, community marketing, launch announcements, or sharing a blog post across Facebook groups."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a connected Facebook account with synced groups in ReachOwl.
 metadata:

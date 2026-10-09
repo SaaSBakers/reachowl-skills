@@ -1,11 +1,6 @@
 ---
 name: reachowl-signal-outreach
-description: >-
-  Signal-based prospecting with ReachOwl: find people who just posted a need ("looking
-  for a realtor", "can anyone recommend a CRM") in Facebook groups, Instagram, Reddit,
-  or Quora, qualify them, and reach out with a personalized DM or reply. Use when the
-  user wants intent-based leads, buyer-intent monitoring, to turn social listening into
-  outreach, or to DM people who commented on or reacted to a relevant post.
+description: "Signal-based prospecting with ReachOwl: find people who just posted a need ('looking for a realtor', 'can anyone recommend a CRM') in Facebook groups, Instagram, Reddit, or Quora, qualify them, and reach out with a personalized DM or reply. Use when the user wants intent-based leads, buyer-intent monitoring, to turn social listening into outreach, or to DM people who commented on or reacted to a relevant post."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a connected Facebook or Instagram account in ReachOwl for DMs.
 metadata:

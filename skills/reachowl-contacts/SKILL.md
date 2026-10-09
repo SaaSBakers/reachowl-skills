@@ -1,10 +1,6 @@
 ---
 name: reachowl-contacts
-description: >-
-  List and inspect the leads (contacts) inside ReachOwl campaigns and add or delete
-  CRM notes on them. Use when the user asks who is in a campaign, wants a lead's
-  details or conversation notes, wants to log a note like "replied yes", or needs to
-  verify that an import worked.
+description: "List and inspect the leads (contacts) inside ReachOwl campaigns and add or delete CRM notes on them. Use when the user asks who is in a campaign, wants a lead's details or conversation notes, wants to log a note like 'replied yes', or needs to verify that an import worked."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:
