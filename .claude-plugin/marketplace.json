@@ -1,0 +1,15 @@
+{
+  "name": "reachowl",
+  "description": "ReachOwl agent skills and MCP server for Facebook, Instagram, and WhatsApp marketing automation.",
+  "owner": {
+    "name": "ReachOwl"
+  },
+  "plugins": [
+    {
+      "name": "reachowl",
+      "source": "./",
+      "description": "Facebook, Instagram, and WhatsApp marketing automation: social listening, signal-based outreach, cold DM and WhatsApp campaigns, Facebook group posting, comment-to-DM automations, Instagram growth, and lead finding.",
+      "category": "marketing"
+    }
+  ]
+}
