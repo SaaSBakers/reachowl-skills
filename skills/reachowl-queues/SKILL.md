@@ -36,7 +36,7 @@ Each contact in a campaign has queue rows, one per step (`-1`, `0`, `1`, `2`). L
 ## Rules
 
 - Don't retry repeatedly when the failure is permanent (account disconnected, profile not found); report the cause instead.
-- To change message copy for everyone, edit the campaign (`reachowl-cold-dm-outreach`), not individual queues.
+- To change message copy for everyone, edit the campaign (`facebook-dm-automation`, `instagram-dm-automation`, or `whatsapp-marketing-automation`), not individual queues.
 
 ## Example
 

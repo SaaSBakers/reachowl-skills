@@ -1,5 +1,5 @@
 ---
-name: reachowl-whatsapp-marketing
+name: whatsapp-marketing-automation
 description: "Run WhatsApp marketing campaigns with ReachOwl: import a phone list or target a WhatsApp group, write personalized message sequences with variables and follow-ups, launch, track replies, and retry failed messages. Use for WhatsApp bulk messaging, WhatsApp broadcasts to customer lists, WhatsApp group outreach, or personalized WhatsApp follow-ups."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a WhatsApp account activated on the ReachOwl Browsers page.
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, whatsapp-marketing, whatsapp-automation, bulk-messaging, broadcast, personalization
 ---
 
-# ReachOwl WhatsApp Marketing
+# WhatsApp Marketing Automation (ReachOwl)
 
 From a contact list to personalized WhatsApp messages with follow-ups.
 

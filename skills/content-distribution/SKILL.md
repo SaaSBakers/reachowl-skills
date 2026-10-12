@@ -1,5 +1,5 @@
 ---
-name: reachowl-content-distribution
+name: content-distribution
 description: "Repurpose an article, blog post, product launch, or announcement into posts tailored to different Facebook groups and communities, then schedule them with ReachOwl's post scheduler and auto-reply to interested commenters. Use for content distribution, community marketing, launch announcements, or sharing a blog post across Facebook groups."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a connected Facebook account with synced groups in ReachOwl.
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, content-distribution, content-repurposing, community-marketing, facebook-groups, launch
 ---
 
-# ReachOwl Content Distribution
+# Content Distribution to Facebook Groups (ReachOwl)
 
 Turn one piece of content into native posts for each community, schedule them, and capture the people who respond.
 
@@ -45,7 +45,7 @@ Also draft versions for other channels if the user wants them (a LinkedIn post, 
 
 ## 4. Schedule (Facebook groups)
 
-One scheduler per audience cluster (fields in `reachowl-facebook-groups-post-scheduler`):
+One scheduler per audience cluster (fields in `facebook-groups-post-scheduler`):
 
 ```json
 {
@@ -66,9 +66,9 @@ One scheduler per audience cluster (fields in `reachowl-facebook-groups-post-sch
 
 ## 5. Capture responses
 
-If the post asks people to comment a keyword, add a comment automation once the posts are live (`reachowl-comment-to-dm-auto-reply`). Use keywords like `["info", "guide", "send"]`, a public reply ("Sent!"), and a DM with the link.
+If the post asks people to comment a keyword, add a comment automation once the posts are live (`facebook-comment-auto-reply`). Use keywords like `["info", "guide", "send"]`, a public reply ("Sent!"), and a DM with the link.
 
-To follow up with everyone who engaged, create a campaign with `audience_type: "comments"` on the post URL (`reachowl-cold-dm-outreach`).
+To follow up with everyone who engaged, create a campaign with `audience_type: "comments"` on the post URL (`facebook-dm-automation`).
 
 ## 6. Report
 

@@ -1,5 +1,5 @@
 ---
-name: reachowl-signal-based-prospecting
+name: signal-based-prospecting
 description: "Signal-based prospecting with ReachOwl: find people who just posted a need ('looking for a realtor', 'can anyone recommend a CRM') in Facebook groups, Instagram, Reddit, or Quora, qualify them, and reach out with a personalized DM or reply. Use when the user wants intent-based leads, buyer-intent monitoring, to turn social listening into outreach, or to DM people who commented on or reacted to a relevant post."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a connected Facebook or Instagram account in ReachOwl for DMs.
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, signal-based-marketing, intent-data, social-selling, lead-generation, social-listening, facebook-marketing
 ---
 
-# ReachOwl Signal-Based Prospecting
+# Signal-Based Prospecting (ReachOwl)
 
 Reach people when they show a need, not from a cold list: **monitor → qualify → reach out → follow up**.
 
@@ -29,7 +29,7 @@ Ask for, or propose:
 
 ## 2. Monitor
 
-Check `list_mentions` for an existing monitor. Otherwise create one with `create_or_update_mention` (fields in `reachowl-social-listening`):
+Check `list_mentions` for an existing monitor. Otherwise create one with `create_or_update_mention` (fields in `social-listening`):
 
 ```json
 { "body": { "team_id": 7715, "type": "facebook_groups", "name": "Need a realtor", "keywords": ["looking for a realtor", "recommend a property dealer"], "groups": [111, 222], "executor_id": 3807, "status": 1 } }
@@ -58,7 +58,7 @@ Pick the route by where the signal came from:
 **A. DM the people who posted (Facebook groups / Instagram)**
 
 1. `list_app_states` → `executor_id` for the platform.
-2. Create a holding campaign (`reachowl-cold-dm-outreach`): `audience_type: "file_upload"`, `action_type: "messages"`, `status: 0`. Write a message that refers to what they asked about. Use a custom variable for the topic:
+2. Create a holding campaign (`facebook-dm-automation` or `instagram-dm-automation`): `audience_type: "file_upload"`, `action_type: "messages"`, `status: 0`. Write a message that refers to what they asked about. Use a custom variable for the topic:
 
 ```json
 { "text": ["Hi {{first_name}}, saw your post about {{topic}} — I help with exactly that. Happy to share a few options?"], "delay": 0 }
