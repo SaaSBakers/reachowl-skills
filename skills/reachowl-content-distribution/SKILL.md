@@ -45,7 +45,7 @@ Also draft versions for other channels if the user wants them (a LinkedIn post, 
 
 ## 4. Schedule (Facebook groups)
 
-One scheduler per audience cluster (fields in `reachowl-post-scheduler`):
+One scheduler per audience cluster (fields in `reachowl-facebook-groups-post-scheduler`):
 
 ```json
 {
@@ -66,9 +66,9 @@ One scheduler per audience cluster (fields in `reachowl-post-scheduler`):
 
 ## 5. Capture responses
 
-If the post asks people to comment a keyword, add a comment automation once the posts are live (`reachowl-comment-automations`). Use keywords like `["info", "guide", "send"]`, a public reply ("Sent!"), and a DM with the link.
+If the post asks people to comment a keyword, add a comment automation once the posts are live (`reachowl-comment-to-dm-auto-reply`). Use keywords like `["info", "guide", "send"]`, a public reply ("Sent!"), and a DM with the link.
 
-To follow up with everyone who engaged, create a campaign with `audience_type: "comments"` on the post URL (`reachowl-campaigns`).
+To follow up with everyone who engaged, create a campaign with `audience_type: "comments"` on the post URL (`reachowl-cold-dm-outreach`).
 
 ## 6. Report
 

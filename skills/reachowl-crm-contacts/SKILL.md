@@ -1,6 +1,6 @@
 ---
-name: reachowl-contacts
-description: "List and inspect the leads (contacts) inside ReachOwl campaigns and add or delete CRM notes on them. Use when the user asks who is in a campaign, wants a lead's details or conversation notes, wants to log a note like 'replied yes', or needs to verify that an import worked."
+name: reachowl-crm-contacts
+description: "CRM contacts and notes in ReachOwl: list and inspect the leads inside campaigns and add or delete notes on them. Use when the user asks who is in a campaign, wants a lead's details or conversation notes, wants to log a note like 'replied yes', or needs to verify that an import worked."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, crm, leads, contacts, notes
 ---
 
-# ReachOwl Contacts & Notes
+# ReachOwl CRM Contacts & Notes
 
 ## Before you start
 
@@ -30,7 +30,7 @@ metadata:
 1. Scope to one campaign with `list_contacts { campaign_id }` whenever you know it (find it with `list_campaigns`).
 2. Use `get_contact { id }` for the full record and existing notes.
 3. Log outcomes with `add_contact_note { contact_id, content }`.
-4. To **add** contacts, use `add_campaign_contacts` from `reachowl-campaigns` — these tools only read and annotate.
+4. To **add** contacts, use `add_campaign_contacts` from `reachowl-cold-dm-outreach` — these tools only read and annotate.
 
 ## Rules
 

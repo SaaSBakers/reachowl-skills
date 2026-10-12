@@ -1,5 +1,5 @@
 ---
-name: reachowl
+name: reachowl-social-media-marketing
 description: "ReachOwl social media marketing automation for Facebook, Instagram, and WhatsApp: social listening, signal-based prospecting, cold DM campaigns, WhatsApp marketing, Facebook group posting, comment-to-DM automations, Instagram growth, lead finding, and CRM follow-ups through the ReachOwl MCP server. Use when the user mentions ReachOwl or wants to automate Facebook, Instagram, or WhatsApp marketing and doesn't name a specific ReachOwl feature."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a ReachOwl account.
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, facebook-marketing, instagram-marketing, whatsapp-marketing, social-listening, marketing-automation, lead-generation
 ---
 
-# ReachOwl
+# ReachOwl Social Media Marketing Automation
 
 [ReachOwl](https://reachowl.com) runs marketing actions from the user's own connected Facebook, Instagram, and WhatsApp accounts. This skill routes a request to the right ReachOwl skill.
 
@@ -25,18 +25,18 @@ metadata:
 | The user wants to… | Skill |
 |--------------------|-------|
 | Connect or verify their ReachOwl account | `reachowl-auth` |
-| Monitor keywords and discussions (Facebook groups, Instagram, Reddit, Quora) | `reachowl-mentions` |
-| Find people who just posted a need and reach out | `reachowl-signal-outreach` |
-| DM group members, post commenters, followers, or a list | `reachowl-campaigns` |
+| Monitor keywords and discussions (Facebook groups, Instagram, Reddit, Quora) | `reachowl-social-listening` |
+| Find people who just posted a need and reach out | `reachowl-signal-based-prospecting` |
+| DM group members, post commenters, followers, or a list | `reachowl-cold-dm-outreach` |
 | Run a WhatsApp campaign | `reachowl-whatsapp-marketing` |
 | Turn an article or announcement into community posts | `reachowl-content-distribution` |
-| Schedule posts to Facebook groups | `reachowl-post-scheduler` |
-| Auto-reply and DM people who comment a keyword | `reachowl-comment-automations` |
-| Grow an Instagram profile | `reachowl-profile-growth` |
-| Scrape leads from websites and import them | `reachowl-lead-finder` |
-| See leads and add notes | `reachowl-contacts` |
+| Schedule posts to Facebook groups | `reachowl-facebook-groups-post-scheduler` |
+| Auto-reply and DM people who comment a keyword | `reachowl-comment-to-dm-auto-reply` |
+| Grow an Instagram profile | `reachowl-instagram-growth` |
+| Scrape leads from websites and import them | `reachowl-lead-generation-scraper` |
+| See leads and add notes | `reachowl-crm-contacts` |
 | Retry a failed or stuck message | `reachowl-queues` |
-| Manage pipeline stages and templates | `reachowl-stages-templates` |
+| Manage pipeline stages and templates | `reachowl-sales-pipeline-templates` |
 | See connected accounts or manage teammates | `reachowl-team-accounts` |
 | Send events to Slack, Zapier, n8n, or a CRM | `reachowl-webhooks` |
 | Anything else in the V1 API | `reachowl-api` |

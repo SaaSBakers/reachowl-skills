@@ -1,5 +1,5 @@
 ---
-name: reachowl-post-scheduler
+name: reachowl-facebook-groups-post-scheduler
 description: "Schedule and auto-post content to multiple Facebook groups with ReachOwl's post scheduler: create posting schedules, set intervals or calendar times, pause, edit posts, clone, and clear pending posts. Use for Facebook group marketing, community posting, or sharing an announcement across many groups."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a connected Facebook account with synced groups in ReachOwl.
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, facebook-groups, post-scheduler, community-posting, social-media-scheduling
 ---
 
-# ReachOwl Post Scheduler (Facebook groups)
+# ReachOwl Facebook Groups Post Scheduler
 
 ## Before you start
 

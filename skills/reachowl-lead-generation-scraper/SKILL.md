@@ -1,6 +1,6 @@
 ---
-name: reachowl-lead-finder
-description: "Find and qualify B2B leads (names, titles, emails, phones, social profiles) from public websites and directories with the ReachOwl Lead Finder Apify Actor, then import them into an existing ReachOwl campaign for Facebook, Instagram, or WhatsApp outreach. Use when the user wants to scrape leads from URLs, build a prospect list for a niche and location, or fill a ReachOwl campaign with new leads."
+name: reachowl-lead-generation-scraper
+description: "Lead generation scraper: find and qualify B2B leads (names, titles, emails, phones, social profiles) from public websites and directories with the ReachOwl Lead Finder Apify Actor, then import them into an existing ReachOwl campaign for Facebook, Instagram, or WhatsApp outreach. Use when the user wants to scrape leads from URLs, build a prospect list for a niche and location, or fill a ReachOwl campaign with new leads."
 license: MIT
 compatibility: Requires an Apify account (APIFY_TOKEN or the Apify MCP server) and the ReachOwl MCP server (https://reachowl.com/mcp).
 metadata:
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, lead-generation, lead-scraping, apify, prospecting, b2b-leads
 ---
 
-# ReachOwl Lead Finder
+# ReachOwl Lead Generation Scraper
 
 The Apify Actor **finds** leads. ReachOwl MCP **imports** them and runs the outreach.
 
@@ -25,7 +25,7 @@ The Apify Actor **finds** leads. ReachOwl MCP **imports** them and runs the outr
 ## Workflow
 
 1. **Confirm the brief**: start URLs, target audience, location, keywords, max leads.
-2. **Pick the campaign**: `list_campaigns` and choose an existing one. If none fits, create one first with `reachowl-campaigns` (for example `audience_type: "file_upload"`, `status: 0`).
+2. **Pick the campaign**: `list_campaigns` and choose an existing one. If none fits, create one first with `reachowl-cold-dm-outreach` (for example `audience_type: "file_upload"`, `status: 0`).
 3. **Run the Actor in scrape-only mode** (`sendToReachOwl: false`):
 
 ```json
@@ -56,7 +56,7 @@ The Apify Actor **finds** leads. ReachOwl MCP **imports** them and runs the outr
    Extra fields (`company`, `title`) become message variables (`{{company}}`, `{{title}}`).
 
 6. **Verify**: `list_contacts { campaign_id }`.
-7. **Start outreach** only after the user approves the messages: `reachowl-campaigns` (`update_campaign { id, body: { status: 1 } }`).
+7. **Start outreach** only after the user approves the messages: `reachowl-cold-dm-outreach` (`update_campaign { id, body: { status: 1 } }`).
 
 ## Rules
 

@@ -14,34 +14,34 @@ Every action runs from the user's own connected accounts in ReachOwl. The agent 
 
 | Use case | What the agent does | Skill |
 |----------|---------------------|-------|
-| **Social listening** | Monitors keywords in Facebook groups, Instagram, Reddit, and Quora, and summarizes what people are asking for | `reachowl-mentions` |
-| **Signal-based marketing** | Finds people who just posted a need, qualifies them, and DMs them with a message about what they asked | `reachowl-signal-outreach` |
+| **Social listening** | Monitors keywords in Facebook groups, Instagram, Reddit, and Quora, and summarizes what people are asking for | `reachowl-social-listening` |
+| **Signal-based marketing** | Finds people who just posted a need, qualifies them, and DMs them with a message about what they asked | `reachowl-signal-based-prospecting` |
 | **Content distribution** | Repurposes an article or announcement into posts for each community, schedules them, and captures interested commenters | `reachowl-content-distribution` |
-| **Community posting** | Schedules posts to many Facebook groups on an interval or calendar | `reachowl-post-scheduler` |
+| **Community posting** | Schedules posts to many Facebook groups on an interval or calendar | `reachowl-facebook-groups-post-scheduler` |
 | **WhatsApp marketing** | Imports a phone list or group, writes personalized sequences, launches, tracks replies, and retries failures | `reachowl-whatsapp-marketing` |
-| **Cold DM campaigns** | DMs or friend-requests group members, post commenters and reactors, followers, or hashtag audiences | `reachowl-campaigns` |
-| **Comment-to-DM** | Replies publicly and DMs anyone who comments a keyword on a Facebook or Instagram post | `reachowl-comment-automations` |
-| **Instagram growth** | Auto-likes and reposts niche posts by hashtag, search, or Explore | `reachowl-profile-growth` |
-| **Lead finding** | Scrapes and scores leads from websites with the [ReachOwl Lead Finder](https://apify.com/superior_couch/reachowl-lead-finder) Apify Actor and imports them into a campaign | `reachowl-lead-finder` |
+| **Cold DM campaigns** | DMs or friend-requests group members, post commenters and reactors, followers, or hashtag audiences | `reachowl-cold-dm-outreach` |
+| **Comment-to-DM** | Replies publicly and DMs anyone who comments a keyword on a Facebook or Instagram post | `reachowl-comment-to-dm-auto-reply` |
+| **Instagram growth** | Auto-likes and reposts niche posts by hashtag, search, or Explore | `reachowl-instagram-growth` |
+| **Lead finding** | Scrapes and scores leads from websites with the [ReachOwl Lead Finder](https://apify.com/superior_couch/reachowl-lead-finder) Apify Actor and imports them into a campaign | `reachowl-lead-generation-scraper` |
 
 ## All skills
 
 | Skill | Purpose |
 |-------|---------|
-| [`reachowl`](skills/reachowl/SKILL.md) | Start here — routes a request to the right skill |
+| [`reachowl-social-media-marketing`](skills/reachowl-social-media-marketing/SKILL.md) | Start here — routes a request to the right skill |
 | [`reachowl-auth`](skills/reachowl-auth/SKILL.md) | Connect and verify a ReachOwl account |
-| [`reachowl-signal-outreach`](skills/reachowl-signal-outreach/SKILL.md) | Intent signals → qualified leads → personalized outreach |
+| [`reachowl-signal-based-prospecting`](skills/reachowl-signal-based-prospecting/SKILL.md) | Intent signals → qualified leads → personalized outreach |
 | [`reachowl-whatsapp-marketing`](skills/reachowl-whatsapp-marketing/SKILL.md) | End-to-end WhatsApp campaigns |
 | [`reachowl-content-distribution`](skills/reachowl-content-distribution/SKILL.md) | Repurpose content and distribute it to communities |
-| [`reachowl-mentions`](skills/reachowl-mentions/SKILL.md) | Keyword monitors and found posts |
-| [`reachowl-campaigns`](skills/reachowl-campaigns/SKILL.md) | Facebook, Instagram, and WhatsApp outreach campaigns and contact imports |
-| [`reachowl-post-scheduler`](skills/reachowl-post-scheduler/SKILL.md) | Facebook group post scheduling |
-| [`reachowl-comment-automations`](skills/reachowl-comment-automations/SKILL.md) | Comment auto-reply and DM |
-| [`reachowl-profile-growth`](skills/reachowl-profile-growth/SKILL.md) | Instagram growth plans |
-| [`reachowl-lead-finder`](skills/reachowl-lead-finder/SKILL.md) | Website lead scraping with Apify |
-| [`reachowl-contacts`](skills/reachowl-contacts/SKILL.md) | Leads and CRM notes |
+| [`reachowl-social-listening`](skills/reachowl-social-listening/SKILL.md) | Keyword monitors and found posts |
+| [`reachowl-cold-dm-outreach`](skills/reachowl-cold-dm-outreach/SKILL.md) | Facebook, Instagram, and WhatsApp outreach campaigns and contact imports |
+| [`reachowl-facebook-groups-post-scheduler`](skills/reachowl-facebook-groups-post-scheduler/SKILL.md) | Facebook group post scheduling |
+| [`reachowl-comment-to-dm-auto-reply`](skills/reachowl-comment-to-dm-auto-reply/SKILL.md) | Comment auto-reply and DM |
+| [`reachowl-instagram-growth`](skills/reachowl-instagram-growth/SKILL.md) | Instagram growth plans |
+| [`reachowl-lead-generation-scraper`](skills/reachowl-lead-generation-scraper/SKILL.md) | Website lead scraping with Apify |
+| [`reachowl-crm-contacts`](skills/reachowl-crm-contacts/SKILL.md) | Leads and CRM notes |
 | [`reachowl-queues`](skills/reachowl-queues/SKILL.md) | Retry failed or stuck messages |
-| [`reachowl-stages-templates`](skills/reachowl-stages-templates/SKILL.md) | Pipeline stages and message templates |
+| [`reachowl-sales-pipeline-templates`](skills/reachowl-sales-pipeline-templates/SKILL.md) | Pipeline stages and message templates |
 | [`reachowl-team-accounts`](skills/reachowl-team-accounts/SKILL.md) | Connected accounts and team members |
 | [`reachowl-webhooks`](skills/reachowl-webhooks/SKILL.md) | Send events to Slack, Zapier, n8n, or a CRM |
 | [`reachowl-api`](skills/reachowl-api/SKILL.md) | Raw V1 API calls when no named tool fits |
@@ -107,7 +107,7 @@ Skills: run `npx skills add SaaSBakers/reachowl-skills`, or copy folders from `s
 ### Claude.ai and Claude Desktop
 
 1. **Settings → Connectors → Add custom connector** → URL `https://reachowl.com/mcp`.
-2. Upload skills under **Settings → Capabilities → Skills**. Zip a folder from `skills/`, for example `reachowl-campaigns/`, and upload it.
+2. Upload skills under **Settings → Capabilities → Skills**. Zip a folder from `skills/`, for example `reachowl-cold-dm-outreach/`, and upload it.
 3. In a chat, say "Connect my ReachOwl account" and paste your token.
 
 ### ChatGPT and other remote MCP clients

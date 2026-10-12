@@ -1,5 +1,5 @@
 ---
-name: reachowl-comment-automations
+name: reachowl-comment-to-dm-auto-reply
 description: "Auto-reply to Facebook and Instagram post comments with ReachOwl: when a comment contains a keyword (like 'price' or 'info'), post a public reply and send the commenter a private DM. Use for comment-to-DM funnels, lead magnets, giveaway posts, or to pause, edit, or check activity on a comment automation."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp) and a connected Facebook or Instagram account in ReachOwl.
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, comment-automation, comment-to-dm, facebook-marketing, instagram-marketing, auto-reply
 ---
 
-# ReachOwl Comment Automations
+# ReachOwl Comment-to-DM Auto Reply (Facebook & Instagram)
 
 ## Before you start
 

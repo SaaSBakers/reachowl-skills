@@ -1,5 +1,5 @@
 ---
-name: reachowl-mentions
+name: reachowl-social-listening
 description: "Social listening with ReachOwl keyword monitors: track keywords across Facebook groups, Instagram, Reddit (subreddits), and Quora, and review the posts found. Use when the user wants brand monitoring, keyword alerts, to find people asking for a product or service, to discover relevant discussions, or to see posts a monitor found."
 license: MIT
 compatibility: Requires the ReachOwl MCP server (https://reachowl.com/mcp). Facebook group and Instagram monitors need a connected account in ReachOwl.
@@ -10,7 +10,7 @@ metadata:
   tags: reachowl, social-listening, keyword-monitoring, brand-monitoring, facebook-groups, reddit, quora
 ---
 
-# ReachOwl Keyword Monitors (Social Listening)
+# ReachOwl Social Listening (Keyword Monitors)
 
 ## Before you start
 
@@ -67,7 +67,7 @@ Disable or edit: `create_or_update_mention { body: { id: 12, status: 0 } }`.
 
 ## Next steps
 
-- Turn found posts into outreach: `reachowl-signal-outreach`.
+- Turn found posts into outreach: `reachowl-signal-based-prospecting`.
 - Get new posts pushed to another system: `reachowl-webhooks` with event `keyword-monitor-found-a-post` (sends at most 2 new posts per scan and ignores webhook `campaign_id`).
 
 ## Tips
